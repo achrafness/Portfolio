@@ -1,0 +1,222 @@
+/* Global Rules  */
+:root{
+  --main-color: #ffffff;
+  --main-color-2:#F5F5F7;
+  --sec-color:#EDC048;
+  --third-color:#FCA61F;
+  --four-color:#feebc5;
+  --five-color:#565362;
+  --six-color:#eee;
+  --seven-color:#19142A;
+  --eight-color: #fe9d00;
+}
+.dark{
+  --main-color:#19142A;
+  --main-color-2:#19142A;
+  --six-color:#1A2340;
+  --seven-color:#ffffff;
+}
+@import url(https://db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT+Heavy);
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: "Futura Hv BT Heavy",sans-serif; 
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:var(--third-color) ;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--eight-color) ;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--six-color);
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container-2{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container-2 {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container-2 {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container-2 {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* start myfamework */
+.bg-main{
+  background-color: var(--main-color);
+}
+.text-main{
+  color: var(--main-color);
+}
+.bg-sec {
+  background-color: var(--sec-color);
+}
+.text-sec {
+  color: var(--sec-color);
+}
+.bg-three {
+  background-color: var(--third-color);
+}
+.text-three {
+  color: var(--third-color);
+}
+.bg-four {
+  background-color: var(--four-color);
+}
+.text-four {
+  color: var(--four-color);
+}
+.bg-five {
+  background-color: var(--five-color);
+}
+.text-five {
+  color: var(--five-color);
+}
+.bg-six{
+  background-color: var(--six-color);
+}
+.text-six{
+  color: var(--six-color);
+}
+.bg-seven{
+  background-color: var(--seven-color);
+}
+.text-seven{
+  color: var(--seven-color);
+}
+.bg-main-2{
+  background-color: var(--main-color-2);
+}
+/* end myframework  */
+/* start home */
+.home .navbar{
+  max-height: 56px;
+}
+.list-nav li:not(:last-of-type){
+  border-bottom: #EDC048 1px solid;
+}
+.navbar ul li a:hover{
+  color: var(--sec-color);
+}
+.content{
+  height: calc(100vh - 56px);
+}
+.content .txt , .content .img{
+  flex: 1;
+}
+.blur-sp{
+  filter: blur(10px);
+}
+/* end Home */
+/* start modal  */
+.contact >  li i {
+  font-size: 35px;
+}
+.blur .navbar .my_modal_1{
+  filter:blur(0px)
+}
+/* end modal  */
+/* start about  */
+.aboute-img{
+  max-width: 40%;
+}
+/* start education */
+.first-be{
+  left: 0;
+  bottom: -160px;
+}
+.sec-be{
+  right: 0;
+  top: -160px;
+}
+.computer{
+  border:  var(--third-color);
+}
+/* end education  */
+/* start skills  */
+.list-skills > div{
+  background-color: var(--six-color) ;
+}
+@media (min-width:767px) {
+  .boxes > div{
+    max-width: 228px;
+    min-height: 112px;
+  }
+}
+@media (min-width:767px) {
+  .boxes{
+    height: calc(100vh - 114px);
+  }
+}
+@media (min-width:767px) {
+  .list-skills{
+    height: calc(100vh - 88px);
+  }
+}
+/* end skills  */
+/* start project  */
+.project-box .img-pro::before{
+  content: attr(data-num);
+  color: white;
+  width: 60px;
+  height: 60px;
+  background-color: var(--sec-color);
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.see-more{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+@media (max-width: 768px) {
+  .project-box{
+    max-width: 300px;
+    margin-right: 30px;
+  }
+}
+/* end project  */
+/* start darkmod  */
+.darkMod{
+  bottom: 10px;
+  right: 10px ;
+}
+@media (min-width: 768px){
+  .darkMod{
+    right: 20px;
+    top: 60px;
+    z-index: 20;
+  }
+}
+/* end darkMod */

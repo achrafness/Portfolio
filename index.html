@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf</title>
+    <link href="https://db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT+Heavy" rel="stylesheet"> 
+     <!-- render ALL ELEMENTS  NORMALY -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome Library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- tailwind framework  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Main template CSS  File -->
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body  class="dark">
+    <div id="home" class="home bg-main-2 w-full md:min-h-screen overflow-hidden relative md:pb-0 pb-24">
+        <div class="navbar z-30 relative">
+            <div class="container-2">
+                <div class="py-2  md:px-8 pt-5 flex justify-between items-center text-main text-seven">
+                    <h2 class="text-sec text-3xl">Ach<span class="text-seven">raf</span><i class="fa-solid fa-circle text-xs ml-2"></i></h2>
+                    <ul class="hidden md:flex [&>*]:mx-3 capitalize">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#education">education</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#project">project</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars block md:hidden font-extrabold text-4xl"></i>
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="btn-modal hidden md:block bg-three text-seven py-2 px-4 rounded-xl text-white">Contact Us</button>
+                </div>
+            </div>
+            <ul class="hidden list-nav bg-six flex flex-col md:hidden  capitalize text-seven text-center z-20 w-full">
+                <li class="py-10"><a href="#home">home</a></li>
+                <li class="py-10"><a href="#about" class="py-10">about me</a></li>
+                <li class="py-10 block"><a href="#education" class="py-10">education</a></li>
+                <li class="py-10 block"><a href="#skills" class="py-10">skills</a></li>
+                <li class="py-10 block"><a href="#project" class="py-10">project</a></li>
+                <li class="py-10 block"><a href="#contact" class="py-10">Contect Us</a></li>
+            </ul>
+            <dialog id="my_modal_1" class="my_modal_1 rounded-lg">
+            <form method="dialog" class="modal-box text-center p-5 bg-sec text-seven">
+                <h3 class="font-bold text-lg mb-2">Contact us</h3>
+                <ul class="[&>*]:mx-3 flex my-5 contact">
+                    <li><a href="https://www.facebook.com/achraf.nessighaoui.9"><i class="fa-brands fa-facebook  bg-three rounded-full p-5"></i></a></li>
+                    <li><a href="https://github.com/achrafness"><i class="fa-brands fa-github  bg-three rounded-full p-5"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/achraf-abdelouadoud-nessighaoui-790140256/"><i class="fa-brands fa-linkedin  bg-three rounded-full p-5"></i></a></li>
+                    <li></i><i class="cursor-pointer fa-solid fa-at  bg-three rounded-full p-5"></i></li>
+                </ul>
+                <p class="py-4 text-gray-500 ">Press ESC key or click the button below to close</p>
+                <div class="modal-action">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn-close">Close</button>
+                </div>
+            </form>
+            </dialog>
+        </div>
+        <div class="content mt-4 overflow-hidden relative">
+            <div class="container-2 h-full ">
+                <div class="flex justify-between content-center items-center h-full  ">
+                    <div class="txt text-seven [&>*]:my-5 max-w-md mx-auto lg:mx-0">
+                        <h1 class="text-center lg:text-left text-5xl md:text-7xl capitalize">hi! i am <br><span class="text-three">achraf nessighaoui</span></h1>
+                        <p>I am a student and I am full stack developer </p>
+                        <div class="btn mx-auto lg:mx-0 bg-three py-3 px-10 rounded-full w-fit capitalize">cv</div>
+                    </div>
+                    <img class="hidden lg:block max-w-lg mr-10 self-end" src="./images/achraf-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div id="about" class="about bg-main w-full md:min-h-screen overflow-hidden md:pb-0 pb-24">
+        <div class="container-2 h-full ">
+            <div class="flex justify-between items-center content-center h-full md:flex-row flex-col">
+                <img src="./images/achraf-2.png" class="aboute-img  flex-1 mt-5" alt="">
+                <div class="flex-1 text-seven  md:ml-10 ml-0">
+                    <h2 class="text-center md:text-left text-3xl md:text-5xl my-5 capitalize">about me</h2>
+                    <p class="text-five mb-16">I'm majoring computer science in university of batna 2 ,I'm familiar with using Adobe softwares (photoshop and illustrator), I am currently  a full-stack developer,  and I'm here to share my journey with you.</p>
+                    <div class="md:text-xl text-lg capitalize  md:my-5 my-0 ">
+                        <div class="flex justify-between mb-3 md:flex-row flex-col text-center">
+                            <span><i class="fa-solid fa-user mr-3"></i>name</span>
+                            <div class="text-five">achraf nessighaoui</div>
+                        </div>
+                        <div class="flex justify-between mb-3 md:flex-row flex-col text-center">
+                            <span><i class="fa-solid fa-phone mr-3"></i></i>phone</span>
+                            <div class="text-five">0666666666</div>
+                        </div>
+                        <div class="flex justify-between mb-3 md:flex-row flex-col text-center">
+                            <span><i class="fa-solid fa-envelope mr-3"></i></i>email</span>
+                            <div class="text-five">achraf.nessighaoui13@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="text-green-400 bg-seven py-3 px-6 max-w-fit flex flex-col rounded-2xl text-4xl text-center mx-auto md:mx-0 mt-12 md:mt-0">10+<span class="text-five text-xl capitalize">project done</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="education" class="education bg-main-2 w-full md:py-0 py-5 md:h-screen overflow-hidden relative md:pb-0 pb-24">
+        <div class="hidden md:block first-be bg-four w-80 h-80 rounded-full absolute"></div>
+        <div class="hidden md:block sec-be bg-four w-80 h-80 rounded-full absolute"></div>
+        <div class="container-2 flex justify-start md:justify-center h-full flex-col items-center">
+            <h2 class="z-10 text-center md:text-left text-3xl md:text-5xl py-5 capitalize text-seven justify-start ">education and experience</h2>
+            <p class=" text-center z-10 text-five  justify-start">I have put my academic education only.</p>
+            <div class="boxes w-4/6 md:my-auto flex md:flex-row flex-col  justify-center content-between md:items-center md:content-center  p-2">
+                <div class="bac z-10  rounded-3xl  bg-four border-white border-dashed border-4 self-start md:mt-12 py-6 px-3 ">
+                    <h2>Baccalaureate Degree</h2>
+                    <h3 class="text-five">july 2022</h3>
+                    <p>The Baccalaureate is a exam taken by students in their third year of high school (secondary education).  </p>
+                </div>
+                <div class="bg-white min-h-fit border-4 border-dashed computer z-10 rounded-3xl  bg-seven self-start py-6 px-3 self-end md:mb-12 mt-3 md:ml-5 ">
+                    <h2>Computer Science engineering</h2>
+                    <h3 class="text-five">sep 2022 - current</h3>
+                    <p>Computer Science is the study of algorithms, data structures, programming, and computation theory to develop software and solve computational problems.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skill" class="skills bg-main w-full md:py-0 py-5 md:h-screen overflow-hidden  md:pb-0 pb-24">
+        <h2 class="z-10 text-center text-3xl md:text-5xl py-5 capitalize text-seven justify-start my-5">skills</h2>
+        <div class="container-2">
+            <div class="list-skills grid md:grid-cols-4 grid-cols-2 gap-8 gap-y-6 content-start pt-16">
+                <div class="html shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/html.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">html</p>
+                </div> 
+                <div class="css shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images//css.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">css</p>
+                </div>
+                <div class="js shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/JavaScript.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">javascript</p>
+                </div>
+                <div class="tailwind shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/tailwind.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">tailwind</p>
+                </div> 
+                <div class="node shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/nodejs.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">Node js</p>
+                </div>
+                <div class="monogo shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/expressjs.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">Express Js</p>
+                </div>
+                <div class="monogo sh shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/mongo db.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">Mongo DB</p>
+                </div>
+                <div class="html shadow-md shadow-black  flex justify-center content-center p-5 uppercase flex-col items-center text-seven rounded-xl">
+                    <img src="./images/soon.png" class="h-20" alt="">
+                    <p class="text-xl mt-5">Soon ..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project" class="project bg-main-2 w-full md:py-0 py-5 md:min-h-screen overflow-hidden  md:pb-10 pb-24 ">
+        <h2 class="z-10 text-center  text-3xl md:text-5xl py-5 capitalize text-seven">Latset Project</h2>
+        <p class=" text-center z-10 text-five  justify-start">I have put my academic education only.</p>
+        <div class="container-2 justify-items-center grid mt-5 gap-10 md:grid-cols-3 grid-cols-1 ">
+            <div class="project-box relative">
+                <div class="img-pro" data-num="1">
+                    <img src="./images/leon.png" class="aspect-video h-48 rounded-3xl block " alt="">
+                </div>
+                <div class="see-more bg-three p-2 w-fit rounded-lg font-thin cursor-pointer"><a href=""><i class="fa-solid fa-eye mr-2"></i>see more</a></div>
+            </div>
+            <div class="project-box relative">
+                <div class="img-pro" data-num="2">
+                    <img src="./images/kasper.png" class="aspect-video h-48 rounded-3xl block " alt="">
+                </div>
+                <div class="see-more bg-three p-2 w-fit rounded-lg font-thin cursor-pointer"><a href=""><i class="fa-solid fa-eye mr-2"></i>see more</a></div>
+            </div>
+            <div class="project-box relative">
+                <div class="img-pro" data-num="3">
+                    <img src="./images/dashbord.png" class="aspect-video h-48 rounded-3xl block " alt="">
+                </div>
+                <div class="see-more bg-three p-2 w-fit rounded-lg font-thin cursor-pointer"><a href=""><i class="fa-solid fa-eye mr-2"></i>see more</a></div>
+            </div>
+            <div class="project-box relative">
+                <div class="img-pro" data-num="4">
+                    <img src="./images/portfilio-2.png" class="aspect-video h-48 rounded-3xl block " alt="">
+                </div>
+                <div class="see-more bg-three p-2 w-fit rounded-lg font-thin cursor-pointer"><a href=""><i class="fa-solid fa-eye mr-2"></i>see more</a></div>
+            </div>
+            <div class="project-box relative">
+                <div class="img-pro" data-num="5">
+                    <img src="./images/taskmanger.png" class="aspect-video h-48 rounded-3xl block " alt="">
+                </div>
+                <div class="see-more bg-three p-2 w-fit rounded-lg font-thin cursor-pointer"><a href=""><i class="fa-solid fa-eye mr-2"></i>see more</a></div>
+            </div>
+        </div>
+    </div>
+    <i class="darkMod cursor-pointer flex items-center ml-1 justify-center bg-seven text-main text-lg p-4 h-10 w-10 rounded-full fa-sharp fa-regular fa-moon fixed"></i> 
+    <footer id="contact" class="bg-six p-5 relative md:hidden">
+        <ul class="flex justify-center text-seven text-xl">
+            <li><a href="https://www.facebook.com/achraf.nessighaoui.9"><i class="fa-brands fa-facebook "></i></a></li>
+            <li><a href="https://github.com/achrafness"><i class="fa-brands fa-github ml-5"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/achraf-abdelouadoud-nessighaoui-790140256/"><i class="fa-brands fa-linkedin ml-5"></i></a></li>
+            <li></i><i class="cursor-pointer fa-solid fa-at ml-5" title="achraf.nessighaoui13@gmail.com"></i></li>
+        </ul>
+    </footer>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
