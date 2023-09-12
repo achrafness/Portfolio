@@ -125,8 +125,10 @@ ul {
 .navbar ul li a:hover{
   color: var(--sec-color);
 }
-.content{
-  height: calc(100vh - 56px);
+@media (min-width:992px) {
+  .content{
+    height: calc(100vh - 56px);
+  }
 }
 .content .txt , .content .img{
   flex: 1;
@@ -159,21 +161,21 @@ ul {
 .computer{
   border:  var(--third-color);
 }
-/* end education  */
-/* start skills  */
-.list-skills > div{
-  background-color: var(--six-color) ;
-}
 @media (min-width:767px) {
   .boxes > div{
     max-width: 228px;
     min-height: 112px;
   }
 }
-@media (min-width:767px) {
+@media (min-width:992px) {
   .boxes{
     height: calc(100vh - 114px);
   }
+}
+/* end education  */
+/* start skills  */
+.list-skills > div{
+  background-color: var(--six-color) ;
 }
 @media (min-width:767px) {
   .list-skills{

@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="css/style.css">   
 </head>
 <body  class="dark">
-    <div id="home" class="home bg-main-2 w-full md:min-h-screen overflow-hidden relative md:pb-0 pb-24">
-        <div class="navbar z-30 relative">
+    <div id="home" class="home bg-main-2 w-full lg:min-h-screen overflow-hidden relative lg:pb-0 pb-24 ">
+        <div class="navbar z-30 relative ">
             <div class="container-2">
                 <div class="py-2  md:px-8 pt-5 flex justify-between items-center text-main text-seven">
                     <h2 class="text-sec text-3xl">Ach<span class="text-seven">raf</span><i class="fa-solid fa-circle text-xs ml-2"></i></h2>
@@ -58,20 +58,20 @@
             </form>
             </dialog>
         </div>
-        <div class="content mt-4 overflow-hidden relative">
+        <div class="content mt-4 relative ">
             <div class="container-2 h-full ">
-                <div class="flex justify-between content-center items-center h-full  ">
-                    <div class="txt text-seven [&>*]:my-5 max-w-md mx-auto lg:mx-0">
-                        <h1 class="text-center lg:text-left text-5xl md:text-7xl capitalize">hi! i am <br><span class="text-three">achraf nessighaoui</span></h1>
+                <div class="flex justify-between content-center items-center flex-col lg:flex-row h-full min-h-fit">
+                    <div class="txt text-seven [&>*]:my-5 max-w-md mx-auto lg:mx-0 text-center lg:text-left">
+                        <h1 class=" text-5xl md:text-7xl capitalize">hi! i am <br><span class="text-three">achraf nessighaoui</span></h1>
                         <p>I am a student and I am full stack developer </p>
                         <div class="btn mx-auto lg:mx-0 bg-three py-3 px-10 rounded-full w-fit capitalize"><a href="./other/achraf.pdf" download>Download CV</a></div>
                     </div>
-                    <img class="hidden lg:block max-w-lg mr-10 self-end" src="./images/achraf-1.png" alt="">
+                    <img class="max-w-sm  md:max-w-md md:mx-auto  lg:max-w-lg lg:mr-10 self-end  justify-self-end" src="./images/achraf-1.png" alt="">
                 </div>
             </div>
         </div>
     </div>   
-    <div id="about" class="about bg-main w-full md:min-h-screen overflow-hidden md:pb-0 pb-24">
+    <div id="about" class="about bg-main w-full lg:min-h-screen overflow-hidden md:pb-0 pb-24">
         <div class="container-2 h-full ">
             <div class="flex justify-between items-center content-center h-full md:flex-row flex-col">
                 <img src="./images/achraf-2.png" class="aboute-img  flex-1 mt-5" alt="">
@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div id="education" class="education bg-main-2 w-full md:py-0 py-5 md:h-screen overflow-hidden relative md:pb-0 pb-24">
+    <div id="education" class="education bg-main-2 lg:h-screen w-full md:py-0 py-5  overflow-hidden relative md:pb-0 pb-24">
         <div class="hidden md:block first-be bg-four w-80 h-80 rounded-full absolute"></div>
         <div class="hidden md:block sec-be bg-four w-80 h-80 rounded-full absolute"></div>
         <div class="container-2 flex justify-start md:justify-center h-full flex-col items-center">
@@ -117,7 +117,7 @@
             </div>
         </div>
     </div>
-    <div id="skill" class="skills bg-main w-full md:py-0 py-5 md:h-screen overflow-hidden  md:pb-0 pb-24">
+    <div id="skill" class="skills bg-main w-full md:py-0 py-5 lg:min-h-screen overflow-hidden  md:pb-0 pb-24">
         <h2 class="z-10 text-center text-3xl md:text-5xl py-5 capitalize text-seven justify-start my-5">skills</h2>
         <div class="container-2">
             <div class="list-skills grid md:grid-cols-4 grid-cols-2 gap-8 gap-y-6 content-start pt-16">
@@ -156,7 +156,7 @@
             </div>
         </div>
     </div>
-    <div id="project" class="project bg-main-2 w-full md:py-0 py-5 md:min-h-screen overflow-hidden  md:pb-10 pb-24 ">
+    <div id="project" class="project bg-main-2 w-full md:py-0 py-5 lg:min-h-screen overflow-hidden  md:pb-10 pb-24 ">
         <h2 class="z-10 text-center  text-3xl md:text-5xl py-5 capitalize text-seven">Latset Project</h2>
         <p class=" text-center z-10 text-five  justify-start">github project only.</p>
         <div class="container-2 justify-items-center grid mt-5 gap-10 md:grid-cols-3 grid-cols-1 ">
@@ -192,7 +192,6 @@
             </div>
         </div>
     </div>
-    <i class="darkMod cursor-pointer flex items-center ml-1 justify-center bg-seven text-main text-lg p-4 h-10 w-10 rounded-full fa-sharp fa-regular fa-moon fixed"></i> 
     <footer id="contact" class="bg-six p-5 relative md:hidden">
         <ul class="flex justify-center text-seven text-xl">
             <li><a href="https://www.facebook.com/achraf.nessighaoui.9"><i class="fa-brands fa-facebook "></i></a></li>
@@ -201,6 +200,7 @@
             <li></i><i class="cursor-pointer fa-solid fa-at ml-5" title="achraf.nessighaoui13@gmail.com"></i></li>
         </ul>
     </footer>
+    <i class="darkMod cursor-pointer flex items-center ml-1 justify-center bg-seven text-main text-lg p-4 h-10 w-10 rounded-full fa-sharp fa-regular fa-moon fixed"></i> 
     <script src="./javascript/main.js"></script>
 </body>
 </html>
